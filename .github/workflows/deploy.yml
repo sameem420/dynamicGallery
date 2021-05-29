@@ -24,7 +24,7 @@ jobs:
     - name: Install Packages
       run: npm install
     - name: Run the tests and generate coverage report
-      run: npm test -- --coverage
+      run: npm test
     - name: Build page
       run: npm run build
     - name: Deploy
