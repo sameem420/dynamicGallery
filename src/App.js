@@ -13,13 +13,12 @@ function App() {
   ]);
 
   const fetchNewImage = () => {
-    const response = `https://source.unsplash.com/random/${Math.floor(
-      Math.random() * 100
-    )}`;
     setImages([
       ...images,
       {
-        url: response,
+        url: `https://source.unsplash.com/random/${Math.floor(
+          Math.random() * 100
+        )}`,
       },
     ]);
   };
