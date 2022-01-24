@@ -1,3 +1,15 @@
+# dynamicGallery
+## get random images easily
+
+- fetching random images from API 
+- remove last fetched image
+
+
+## Tech Stack:
+- #### Reactjs
+- #### Axios
+- #### unsplash API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
